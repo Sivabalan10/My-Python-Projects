@@ -30,7 +30,7 @@ if __name__ == "__main__":
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
     sender_email = "youremail@gmail.com"         # Replace with your email address
-    password = "yourpassword"                    # Replace with your email password or app-specific password
+    password = "yourpassword"                  # Enable two factor authentication and set app password for sender email - 16 didgit code-  https://support.google.com/mail/?p=BadCredentials
     receiver_email = "receiver@example.com"      # Replace with the recipient's email address
 
     # Email content
