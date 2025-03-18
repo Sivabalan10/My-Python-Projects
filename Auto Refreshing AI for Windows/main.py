@@ -1,7 +1,7 @@
 import pyttsx3
 import pyautogui as pg
 
-
+## set up in startup folder to automate the task to run py every time
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
